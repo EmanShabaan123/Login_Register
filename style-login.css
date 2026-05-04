@@ -212,7 +212,7 @@ h2 {
 
   .card-back {
   position: absolute;
-  top: -60px;
+  top: -75px;
   left: 0;
   transform: rotateY(180deg);
 }
