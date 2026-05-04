@@ -222,4 +222,7 @@ h2 {
   .row-2 {
     grid-template-columns: 1fr; 
   }
+  .row-2>.field:first-of-type{
+    margin: 0;
+  }
 }
