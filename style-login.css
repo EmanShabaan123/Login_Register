@@ -3,7 +3,7 @@
   --slate:      #4b6a7a;
   --slate-dark: #3a5565;
   --text-dark:  #1e2a32;
-  --text-muted: #495a65;
+  --text-muted: #8B9AA6;
 }
 
 *{
@@ -68,7 +68,7 @@ body::after{
   border-radius: 20px;
   box-shadow: var(--shadow);
   padding: 36px 36px 40px;
-  border: 1.5px solid var(--slate-dark);
+  border: 1.8px solid var(--slate-dark);
 }
 
 .card-back {
@@ -101,7 +101,7 @@ h2 {
 
 .sub {
   font-size: .85rem;
-  color: var(--text-muted);
+  color: var(--slate);
   margin-bottom: 22px;
   font-weight: 300;
 }
@@ -125,8 +125,8 @@ h2 {
   transition: border-color .2s, box-shadow .2s;
 }
 
-.field input::placeholder { color: var(--text-muted); }
-.field select             { color: var(--text-muted); }
+.field input::placeholder { color: var(--slate); }
+.field select             { color: var(--slate); }
 
 .field input:focus,
 .field select:focus {
@@ -170,7 +170,7 @@ h2 {
 }
 
 .btn-primary-custom:hover {
-  background-color: #93b0c4;
+  background-color: var(--text-muted);
   color: var(--text-dark);
   border: 1.5px solid var(--text-dark);
 }
@@ -179,7 +179,7 @@ h2 {
   text-align: center;
   margin-top: 18px;
   font-size: .85rem;
-  color: var(--text-muted);
+  color: var(--slate);
 }
 
 .switch-txt a {
