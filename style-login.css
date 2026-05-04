@@ -209,9 +209,10 @@ h2 {
     padding: 28px 22px 32px;
     border-radius: 16px;
   }
+
   .card-back {
   position: absolute;
-  top: -55px;
+  top: -60px;
   left: 0;
   transform: rotateY(180deg);
 }
